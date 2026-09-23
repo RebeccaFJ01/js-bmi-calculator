@@ -9,8 +9,6 @@
 // Skriver du 1,75, opfatter JavaScript det som to separate værdier (1 og 75), og koden vil ikke
 // give det resultat, du forventer.
 function beregnBMI(weight,height) {
-    weight=70
-    height=1.75
 
     // Eksempel: BMI beregnes med formlen vægt divideret med (højde multipliceret med højde)
     let bmi = weight / (height * height);
@@ -47,6 +45,8 @@ function beregnBMI(weight,height) {
 }
 
 beregnBMI(70, 1.75);
+beregnBMI(60, 1.65);
+beregnBMI(65, 1.70);
 // Skriv selv: kald funktionen 2-3 gange mere med andre kombinationer af weight og height,
 // så du selv kan se de øvrige kategorier blive testet i konsollen.
 //
