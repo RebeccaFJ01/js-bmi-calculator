@@ -36,11 +36,13 @@ function beregnBMI(weight,height) {
     // Skriv selv: tilføj en else if-gren, der tjekker om bmi er 25 eller derover, OG mindre end 30.
     // Log i så fald: `Din BMI er ${bmi}. Det betyder overvægt.`
 
-    else if (bmi >= 25) console=log(`Din BMI er ${bmi}. Det betyder overvægt.`)
+    else if (bmi >= 25 && bmi < 30) console=log(`Din BMI er ${bmi}. Det betyder overvægt.`)
 
 
     // Skriv selv: tilføj en sidste else-gren.
     // Log: `Din BMI er ${bmi}. Det betyder svær overvægt.`
+
+    else if (bmi > 30) console=log(`Det betyder svær oversæt`)
 
 }
 
