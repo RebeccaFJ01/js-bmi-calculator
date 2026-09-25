@@ -1,5 +1,5 @@
 // Husk fra dag 1: skriv "use strict" herunder
-"use strict"
+"use strict";
 
 // Eksempel: vi opretter funktionen beregnBMI - men parametrene skal du selv skrive.
 // Skriv selv: udfyld parentesen herunder med de to parametre weight og height
@@ -29,12 +29,14 @@ function beregnBMI(weight,height) {
     // Skriv selv: tilføj en else if-gren, der tjekker om bmi er 18.5 eller derover, OG mindre end 25.
     // Log i så fald: `Din BMI er ${bmi}. Det betyder normalvægt.`
 
-    else if (bmi >= 18.5 && bmi < 25) console.log(`Din BMI er ${bmi}. Det betyder normalvægt.`)
+    else if (bmi >= 18.5 && bmi < 25) 
+        {console.log(`Din BMI er ${bmi}. Det betyder normalvægt.`)}
 
     // Skriv selv: tilføj en else if-gren, der tjekker om bmi er 25 eller derover, OG mindre end 30.
     // Log i så fald: `Din BMI er ${bmi}. Det betyder overvægt.`
 
-    else if (bmi >= 25 && bmi < 30) console=log(`Din BMI er ${bmi}. Det betyder overvægt.`)
+    else if (bmi >= 25 && bmi < 30)
+         {console=log(`Din BMI er ${bmi}. Det betyder overvægt.`)}
 
 
     // Skriv selv: tilføj en sidste else-gren.
